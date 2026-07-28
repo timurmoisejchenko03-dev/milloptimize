@@ -6,7 +6,7 @@
 ## 🎯 Target Environment
 - **Minecraft Version**: 1.21.1
 - **Target Mod**: Millénaire **9.0.0-beta.1**
-- **Platform**: NeoForge / Forge
+- **Platform**: NeoForge
 
 ## Key Features
 ## 🌟 The Core Mission
