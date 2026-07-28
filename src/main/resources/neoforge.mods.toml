@@ -1,0 +1,6 @@
+modId=milloptimize
+modName=MillOptimize
+modVersion=1.0.0
+modLoaderVersion=neoforge-1.21.1
+description=Optimization patch for Millénaire mod. Fixes village search and NPC AI.
+authors=BionicAgent

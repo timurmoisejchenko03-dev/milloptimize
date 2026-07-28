@@ -1,0 +1,23 @@
+Summary for millenaire-9.0.0-beta.1.jar
+Decompiled with CFR 0.150
+
+
+org.millenaire.dialogue.DialogueLoader
+----------------------------
+
+parseDialogueStream(java.io.InputStream net.minecraft.resources.ResourceLocation java.lang.String java.lang.String boolean java.util.Set<java.lang.String> java.util.Set<java.lang.String> )
+  Unable to fully structure code
+
+
+org.millenaire.content.CustomContentIndex
+----------------------------
+
+rejectPackIdCollisions(java.util.Map<java.lang.String, java.util.List<org.millenaire.content.SubmodRoot>> java.util.Map<java.lang.String, org.millenaire.content.SubmodRoot> )
+  Unable to fully structure code
+
+
+org.millenaire.content.legacy.LegacyConversionReport
+----------------------------
+
+counts(java.lang.String org.millenaire.content.legacy.LegacyConversionReport$Kind )
+  Exception : java.lang.UnsupportedOperationException

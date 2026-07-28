@@ -34,7 +34,7 @@ base {
     archivesName = mod_id
 }
 
-// Mojang ships Java 21 to end users in 1.21.1, so mods should target Java 21.
+// Mojang ships Java 21 to end users in 1.21.1, but we use Java 25 for development
 java.toolchain.languageVersion = JavaLanguageVersion.of(21)
 
 neoForge {
@@ -132,6 +132,13 @@ dependencies {
 
     // Example mod dependency using a file as dependency
     // implementation files("libs/coolmod-${mc_version}-${coolmod_version}.jar")
+
+    // Millénaire mod dependency
+    compileOnly files("millenaire-9.0.0-beta.1.jar")
+
+    // JUnit for testing
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.8.2'
+    testRuntimeOnly 'org.junit.platform:junit-platform-launcher:1.8.2'
 
     // Example project dependency using a sister or child project:
     // implementation project(":myproject")

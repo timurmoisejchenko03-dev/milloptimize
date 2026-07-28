@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "org.milloptimize.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "VillageManagerMixin",
+    "GoalSchedulerMixin"
+  ],
+  "injectors": {
+    "default_inject": "org.spongepowered.asm.mixin.MixinConfig.DEFAULT_INJECT_CONFIG"
+  }
+}
