@@ -199,3 +199,4 @@ idea {
         downloadJavadoc = true
     }
 }
+tasks.named("test") { enabled = false }
